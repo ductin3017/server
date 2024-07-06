@@ -76,7 +76,7 @@ app.use("/api/v1/user/book/checkout/payment", paymentRouter);
 app.use("/api/v1/admin/users", allUserRouter);
 
 // create port
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 10000;
 // start
 app.listen(PORT, () => {
 	console.log(`server đang chạy trên cổng ${PORT}`);
